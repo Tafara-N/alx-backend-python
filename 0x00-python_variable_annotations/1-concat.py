@@ -1,7 +1,18 @@
 #!/usr/bin/env python3
 
 """
+Function returns two concatenated strings
 """
 
-def concat(string1: str, string2: str) -> str:
-    return string1 + string2
+
+def concat(str1: str, str2: str) -> str:
+    """
+    Parameters
+        str1: str
+        str2: str
+
+    Return
+        str1 + str2
+    """
+
+    return str1 + str2
