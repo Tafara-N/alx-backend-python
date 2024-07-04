@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
 """
+Function returns the floor of a float
 """
 
-from math import floor
+import math
 
 def floor(n: float) -> float:
-    return floor(n)
+    return math.floor(n)
