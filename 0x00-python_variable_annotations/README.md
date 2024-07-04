@@ -57,7 +57,7 @@ True
 {'a':  <class 'float'>, 'b': <class 'float'>, 'return': <class 'float'>}
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
 File: `0-add.py`
@@ -82,7 +82,7 @@ True
 {'str1': <class 'str'>, 'str2': <class 'str'>, 'return': <class 'str'>}
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
 File: `1-concat.py`
@@ -111,7 +111,7 @@ True
 floor(3.14) returns 3, which is a <class 'int'>
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
 File: `2-floor.py`
@@ -136,7 +136,7 @@ True
 to_str(3.14) returns 3.14, which is a <class 'str'>
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
 File: `3-to_str.py`
@@ -171,7 +171,7 @@ i_understand_annotations is a <class 'bool'> with a value of True
 school is a <class 'str'> with a value of Holberton
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
 File: `4-define_variables.py`
@@ -198,7 +198,7 @@ True
 sum_list(floats) returns 6.470000000000001 which is a <class 'float'>
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
 File: `5-sum_list.py`
@@ -225,7 +225,7 @@ True
 sum_mixed_list(mixed) returns 679.13 which is a <class 'float'>
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
 File: `6-sum_mixed_list.py`
@@ -250,7 +250,7 @@ bob@dylan:~$ ./7-main.py
 ('school', 0.0004)
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
 File: `7-to_kv.py`
@@ -273,7 +273,7 @@ bob@dylan:~$ ./8-main.py
 4.928400000000001
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
 File: `8-make_multiplier.py`
@@ -299,7 +299,7 @@ bob@dylan:~$ ./9-main.py
 {'lst': typing.Iterable[typing.Sequence], 'return': typing.List[typing.Tuple[typing.Sequence, int]]}
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
 File: `9-element_length.py`
@@ -329,7 +329,7 @@ bob@dylan:~$ ./100-main.py
 {'lst': typing.Sequence[typing.Any], 'return': typing.Union[typing.Any, NoneType]}
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
 File: `100-safe_first_element.py`
@@ -367,7 +367,7 @@ default: typing.Union[~T, NoneType]
 return: typing.Union[typing.Any, ~T]
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
 File: `101-safely_get_value.py`
@@ -406,7 +406,7 @@ bob@dylan:~$ ./102-main.py
 {'lst': typing.Tuple, 'factor': <class 'int'>, 'return': typing.List}
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
 File: `102-type_checking.py`
