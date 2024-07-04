@@ -176,10 +176,11 @@ GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
 File: `4-define_variables.py`
 
-5. Complex types - list of floats
-mandatory
-Write a type-annotated function sum_list which takes a list input_list of floats as argument and returns their sum as a float.
+### 5. Complex types - list of floats
 
+Write a type-annotated function `sum_list` which takes a list `input_list` of floats as argument and returns their sum as a float.
+
+```bash
 bob@dylan:~$ cat 5-main.py
 #!/usr/bin/env python3
 
@@ -195,16 +196,18 @@ bob@dylan:~$ ./5-main.py
 True
 {'input_list': typing.List[float], 'return': <class 'float'>}
 sum_list(floats) returns 6.470000000000001 which is a <class 'float'>
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
-File: 5-sum_list.py
+File: `5-sum_list.py`
 
-6. Complex types - mixed list
-mandatory
-Write a type-annotated function sum_mixed_list which takes a list mxd_lst of integers and floats and returns their sum as a float.
+### 6. Complex types - mixed list
 
+Write a type-annotated function `sum_mixed_list` which takes a list `mxd_lst` of integers and floats and returns their sum as a float.
+
+```bash
 bob@dylan:~$ cat 6-main.py
 #!/usr/bin/env python3
 
@@ -220,16 +223,18 @@ bob@dylan:~$ ./6-main.py
 {'mxd_lst': typing.List[typing.Union[int, float]], 'return': <class 'float'>}
 True
 sum_mixed_list(mixed) returns 679.13 which is a <class 'float'>
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
-File: 6-sum_mixed_list.py
+File: `6-sum_mixed_list.py`
 
-7. Complex types - string and int/float to tuple
-mandatory
-Write a type-annotated function to_kv that takes a string k and an int OR float v as arguments and returns a tuple. The first element of the tuple is the string k. The second element is the square of the int/float v and should be annotated as a float.
+### 7. Complex types - string and int/float to tuple
 
+Write a type-annotated function `to_kv` that takes a string `k` and an int OR float `v` as arguments and returns a tuple. The first element of the tuple is the string `k`. The second element is the square of the int/float `v` and should be annotated as a float.
+
+```bash
 bob@dylan:~$ cat 7-main.py
 #!/usr/bin/env python3
 
@@ -243,16 +248,18 @@ bob@dylan:~$ ./7-main.py
 {'k': <class 'str'>, 'v': typing.Union[int, float], 'return': typing.Tuple[str, float]}
 ('eggs', 9)
 ('school', 0.0004)
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
-File: 7-to_kv.py
+File: `7-to_kv.py`
 
-8. Complex types - functions
-mandatory
-Write a type-annotated function make_multiplier that takes a float multiplier as argument and returns a function that multiplies a float by multiplier.
+### 8. Complex types - functions
 
+Write a type-annotated function `make_multiplier` that takes a float `multiplier` as argument and returns a function that multiplies a float by `multiplier`.
+
+```bash
 bob@dylan:~$ cat 8-main.py
 #!/usr/bin/env python3
 
@@ -264,18 +271,23 @@ print("{}".format(fun(2.22)))
 bob@dylan:~$ ./8-main.py
 {'multiplier': <class 'float'>, 'return': typing.Callable[[float], float]}
 4.928400000000001
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
-File: 8-make_multiplier.py
+File: `8-make_multiplier.py`
 
-9. Let's duck type an iterable object
-mandatory
+### 9. Let's duck type an iterable object
+
 Annotate the below function’s parameters and return values with the appropriate types
 
+```python
 def element_length(lst):
     return [(i, len(i)) for i in lst]
+```
+
+```bash
 bob@dylan:~$ cat 9-main.py
 #!/usr/bin/env python3
 
@@ -285,14 +297,15 @@ print(element_length.__annotations__)
 
 bob@dylan:~$ ./9-main.py
 {'lst': typing.Iterable[typing.Sequence], 'return': typing.List[typing.Tuple[typing.Sequence, int]]}
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
 File: `9-element_length.py`
 
- 10. Duck typing - first element of a sequence
-#advanced
+### 10. Duck typing - first element of a sequence
+
 Augment the following code with the correct duck-typed annotations:
 
 # The types of the elements of the input are not know
