@@ -308,12 +308,16 @@ File: `9-element_length.py`
 
 Augment the following code with the correct duck-typed annotations:
 
+```python
 # The types of the elements of the input are not know
 def safe_first_element(lst):
     if lst:
         return lst[0]
     else:
         return None
+```
+
+```bash
 bob@dylan:~$ cat 100-main.py
 #!/usr/bin/env python3
 
@@ -323,23 +327,28 @@ print(safe_first_element.__annotations__)
 
 bob@dylan:~$ ./100-main.py
 {'lst': typing.Sequence[typing.Any], 'return': typing.Union[typing.Any, NoneType]}
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
-File: 100-safe_first_element.py
+File: `100-safe_first_element.py`
 
-11. More involved type annotations
-#advanced
+### 11. More involved type annotations
+
 Given the parameters and the return values, add type annotations to the function
 
 Hint: look into TypeVar
 
+```python
 def safely_get_value(dct, key, default = None):
     if key in dct:
         return dct[key]
     else:
         return default
+```
+
+```bash
 bob@dylan:~$ cat 101-main.py
 #!/usr/bin/env python3
 
@@ -356,16 +365,18 @@ dct: typing.Mapping
 key: typing.Any
 default: typing.Union[~T, NoneType]
 return: typing.Union[typing.Any, ~T]
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
-File: 101-safely_get_value.py
+File: `101-safely_get_value.py`
 
-12. Type Checking
+### 12. Type Checking
 
-Use mypy to validate the following piece of code and apply any necessary changes.
+Use `mypy` to validate the following piece of code and apply any necessary changes.
 
+```python
 def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
     zoomed_in: Tuple = [
         item for item in lst
@@ -379,6 +390,9 @@ array = [12, 72, 91]
 zoom_2x = zoom_array(array)
 
 zoom_3x = zoom_array(array, 3.0)
+```
+
+```bash
 bob@dylan:~$ mypy 102-type_checking.py
 Success: no issues found in 1 source file
 bob@dylan:~$ cat 102-main.py
@@ -390,8 +404,9 @@ print(zoom_array.__annotations__)
 
 bob@dylan:~$ ./102-main.py
 {'lst': typing.Tuple, 'factor': <class 'int'>, 'return': typing.List}
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-python
 Directory: 0x00-python_variable_annotations
 File: `102-type_checking.py`
