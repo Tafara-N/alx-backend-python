@@ -60,7 +60,7 @@ True
 **Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x00-python_variable_annotations`
-File: `0-add.py`
+- File: `0-add.py`
 
 ### 1. Basic annotations - concat
 
@@ -85,7 +85,7 @@ True
 **Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x00-python_variable_annotations`
-File: `1-concat.py`
+- File: `1-concat.py`
 
 ### 2. Basic annotations - floor
 
@@ -114,7 +114,7 @@ floor(3.14) returns 3, which is a <class 'int'>
 **Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x00-python_variable_annotations`
-File: `2-floor.py`
+- File: `2-floor.py`
 
 ### 3. Basic annotations - to string
 
@@ -139,7 +139,7 @@ to_str(3.14) returns 3.14, which is a <class 'str'>
 **Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x00-python_variable_annotations`
-File: `3-to_str.py`
+- File: `3-to_str.py`
 
 ### 4. Define variables
 
@@ -174,7 +174,7 @@ school is a <class 'str'> with a value of Holberton
 **Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x00-python_variable_annotations`
-File: `4-define_variables.py`
+- File: `4-define_variables.py`
 
 ### 5. Complex types - list of floats
 
@@ -201,7 +201,7 @@ sum_list(floats) returns 6.470000000000001 which is a <class 'float'>
 **Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x00-python_variable_annotations`
-File: `5-sum_list.py`
+- File: `5-sum_list.py`
 
 ### 6. Complex types - mixed list
 
@@ -228,7 +228,7 @@ sum_mixed_list(mixed) returns 679.13 which is a <class 'float'>
 **Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x00-python_variable_annotations`
-File: `6-sum_mixed_list.py`
+- File: `6-sum_mixed_list.py`
 
 ### 7. Complex types - string and int/float to tuple
 
@@ -253,7 +253,7 @@ bob@dylan:~$ ./7-main.py
 **Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x00-python_variable_annotations`
-File: `7-to_kv.py`
+- File: `7-to_kv.py`
 
 ### 8. Complex types - functions
 
@@ -276,7 +276,7 @@ bob@dylan:~$ ./8-main.py
 **Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x00-python_variable_annotations`
-File: `8-make_multiplier.py`
+- File: `8-make_multiplier.py`
 
 ### 9. Let's duck type an iterable object
 
@@ -302,7 +302,7 @@ bob@dylan:~$ ./9-main.py
 **Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x00-python_variable_annotations`
-File: `9-element_length.py`
+- File: `9-element_length.py`
 
 ### 10. Duck typing - first element of a sequence
 
@@ -332,7 +332,7 @@ bob@dylan:~$ ./100-main.py
 **Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x00-python_variable_annotations`
-File: `100-safe_first_element.py`
+- File: `100-safe_first_element.py`
 
 ### 11. More involved type annotations
 
@@ -370,7 +370,7 @@ return: typing.Union[typing.Any, ~T]
 **Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x00-python_variable_annotations`
-File: `101-safely_get_value.py`
+- File: `101-safely_get_value.py`
 
 ### 12. Type Checking
 
@@ -409,4 +409,4 @@ bob@dylan:~$ ./102-main.py
 **Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x00-python_variable_annotations`
-File: `102-type_checking.py`
+- File: `102-type_checking.py`
