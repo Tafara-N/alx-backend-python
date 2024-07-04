@@ -4,6 +4,7 @@
 Function returns the sum of two floats a and b
 """
 
+
 def add(a: float, b: float) -> float:
     """
     Parameters
