@@ -309,7 +309,7 @@ bob@dylan:~$ ./9-main.py
 Augment the following code with the correct duck-typed annotations:
 
 ```python
-# The types of the elements of the input are not know
+# The types of the elements of the input are not known
 def safe_first_element(lst):
     if lst:
         return lst[0]
