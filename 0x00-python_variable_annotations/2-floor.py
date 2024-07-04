@@ -8,4 +8,12 @@ import math
 
 
 def floor(n: float) -> float:
+    """
+    Parameters
+        n: float
+
+    Return
+        floor of n
+    """
+
     return math.floor(n)
