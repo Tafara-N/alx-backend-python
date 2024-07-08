@@ -27,12 +27,13 @@ All your modules should have a documentation (python3 -c 'print(__import__("my_m
 All your functions should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)'
 A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 Tasks
-0. The basics of async
-mandatory
-Write an asynchronous coroutine that takes in an integer argument (max_delay, with a default value of 10) named wait_random that waits for a random delay between 0 and max_delay (included and float value) seconds and eventually returns it.
+### 0. The basics of async
 
-Use the random module.
+Write an asynchronous coroutine that takes in an integer argument (`max_delay`, with a default value of 10) named `wait_random` that waits for a random delay between 0 and `max_delay` (included and float value) seconds and eventually returns it.
 
+Use the `random` module.
+
+```bash
 bob@dylan:~$ cat 0-main.py
 #!/usr/bin/env python3
 
@@ -48,11 +49,12 @@ bob@dylan:~$ ./0-main.py
 9.034261504534394
 1.6216525464615306
 10.634589756751769
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-python
 Directory: 0x01-python_async_function
-File: 0-basic_async_syntax.py
+File: `0-basic_async_syntax.py`
 
 ### 1. Let's execute multiple coroutines at the same time with async
 
