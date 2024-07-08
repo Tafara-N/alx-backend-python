@@ -111,12 +111,13 @@ GitHub repository: alx-backend-python
 Directory: 0x01-python_async_function
 File: 2-measure_runtime.py
 
-3. Tasks
-mandatory
-Import wait_random from 0-basic_async_syntax.
+### 3. Tasks
 
-Write a function (do not create an async function, use the regular function syntax to do this) task_wait_random that takes an integer max_delay and returns a asyncio.Task.
+Import `wait_random` from `0-basic_async_syntax`.
 
+Write a function (do not create an async function, use the regular function syntax to do this) `task_wait_random` that takes an integer `max_delay` and returns a `asyncio.Task`.
+
+```shell
 bob@dylan:~$ cat 3-main.py
 #!/usr/bin/env python3
 
@@ -134,8 +135,9 @@ asyncio.run(test(5))
 
 bob@dylan:~$ ./3-main.py
 <class '_asyncio.Task'>
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-python
 Directory: 0x01-python_async_function
 File: `3-tasks.py`
