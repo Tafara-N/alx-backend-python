@@ -61,7 +61,7 @@ bob@dylan:~$ ./0-main.py
 Repo:
 GitHub repository: alx-backend-python
 Directory: 0x01-python_async_function
-File: `0-basic_async_syntax.py`
+- File: `0-basic_async_syntax.py`
 
 ### 1. Let's execute multiple coroutines at the same time with async
 
@@ -94,7 +94,7 @@ The output for your answers might look a little different and that’s okay.
 Repo:
 GitHub repository: alx-backend-python
 Directory: 0x01-python_async_function
-File: `1-concurrent_coroutines.py`
+- File: `1-concurrent_coroutines.py`
 
 ### 2. Measure the runtime
 
@@ -122,7 +122,7 @@ bob@dylan:~$ ./2-main.py
 Repo:
 GitHub repository: alx-backend-python
 Directory: 0x01-python_async_function
-File: `2-measure_runtime.py`
+- File: `2-measure_runtime.py`
 
 ### 3. Tasks
 
@@ -153,7 +153,7 @@ bob@dylan:~$ ./3-main.py
 Repo:
 GitHub repository: alx-backend-python
 Directory: 0x01-python_async_function
-File: `3-tasks.py`
+- File: `3-tasks.py`
 
 ### 4. Tasks
 
@@ -178,4 +178,4 @@ bob@dylan:~$ ./4-main.py
 Repo:
 GitHub repository: alx-backend-python
 Directory: 0x01-python_async_function
-File: `4-tasks.py`
+- File: `4-tasks.py`
