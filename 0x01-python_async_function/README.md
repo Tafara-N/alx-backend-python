@@ -58,7 +58,7 @@ bob@dylan:~$ ./0-main.py
 10.634589756751769
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x01-python_async_function`
 - File: `0-basic_async_syntax.py`
@@ -91,7 +91,7 @@ bob@dylan:~$ ./1-main.py
 
 The output for your answers might look a little different and that’s okay.
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x01-python_async_function`
 - File: `1-concurrent_coroutines.py`
@@ -119,7 +119,7 @@ bob@dylan:~$ ./2-main.py
 1.759705400466919
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x01-python_async_function`
 - File: `2-measure_runtime.py`
@@ -150,7 +150,7 @@ bob@dylan:~$ ./3-main.py
 <class '_asyncio.Task'>
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x01-python_async_function`
 - File: `3-tasks.py`
@@ -175,7 +175,7 @@ bob@dylan:~$ ./4-main.py
 [0.2261658205652346, 1.1942770588220557, 1.8410422186086628, 2.1457353803430523, 4.002505454641153]
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x01-python_async_function`
 - File: `4-tasks.py`
