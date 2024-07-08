@@ -26,7 +26,9 @@ All your functions and coroutines must be type-annotated.
 All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
 All your functions should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)'
 A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
-Tasks
+
+## Tasks
+
 ### 0. The basics of async
 
 Write an asynchronous coroutine that takes in an integer argument (`max_delay`, with a default value of 10) named `wait_random` that waits for a random delay between 0 and `max_delay` (included and float value) seconds and eventually returns it.
