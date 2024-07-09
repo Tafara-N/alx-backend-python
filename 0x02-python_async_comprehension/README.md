@@ -83,7 +83,7 @@ File: 1-async_comprehension.py
 
 ### 2. Run time for four parallel comprehensions
 
-Import `async_comprehension` from the previous file and write a measure_runtime coroutine that will execute `async_comprehension` four times in parallel using `asyncio.gather`.
+Import `async_comprehension` from the previous file and write a `measure_runtime` coroutine that will execute `async_comprehension` four times in parallel using `asyncio.gather`.
 
 `measure_runtime` should measure the total runtime and return it.
 
