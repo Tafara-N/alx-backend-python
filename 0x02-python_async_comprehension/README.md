@@ -60,7 +60,7 @@ bob@dylan:~$ ./0-main.py
 ```
 
 Repo:
-GitHub repository: alx-backend-python
+- GitHub repository: `alx-backend-python`
 * Directory: `0x02-python_async_comprehension`
 File: `0-async_generator.py`
 
@@ -88,7 +88,7 @@ bob@dylan:~$ ./1-main.py
 ```
 
 Repo:
-GitHub repository: alx-backend-python
+- GitHub repository: `alx-backend-python`
 - Directory: `0x02-python_async_comprehension`
 File: `1-async_comprehension.py`
 
@@ -120,6 +120,6 @@ bob@dylan:~$ ./2-main.py
 ```
 
 Repo:
-GitHub repository: alx-backend-python
+- GitHub repository: `alx-backend-python`
 * Directory: `0x02-python_async_comprehension`
 File: `2-measure_runtime.py`
