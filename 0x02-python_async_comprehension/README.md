@@ -1,3 +1,5 @@
+![Asynchronous Operations](asynchronous.png)
+
 # Resources
 
 **Read or watch:**
