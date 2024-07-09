@@ -74,12 +74,12 @@ asyncio.run(main())
 
 bob@dylan:~$ ./1-main.py
 [9.861842105071727, 8.572355293354995, 1.7467182056248265, 4.0724372912858575, 0.5524750922145316, 8.084266576021555, 8.387128918690468, 1.5486451376520916, 7.713335177885325, 7.673533267041574]
+```
 
 Repo:
-
 GitHub repository: alx-backend-python
 Directory: 0x02-python_async_comprehension
-File: 1-async_comprehension.py
+File: `1-async_comprehension.py`
 
 ### 2. Run time for four parallel comprehensions
 
