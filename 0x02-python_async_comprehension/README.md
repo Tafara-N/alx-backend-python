@@ -1,9 +1,9 @@
 # Resources
 
 **Read or watch:**
-- [PEP 530 – Asynchronous Comprehensions]()
-- [What’s New in Python: Asynchronous Comprehensions / Generators
-- [Type-hints for generators
+- [PEP 530 – Asynchronous Comprehensions](https://intranet.alxswe.com/rltoken/hlwtED-iLsdORSgly8DsyQ)
+- [What’s New in Python: Asynchronous Comprehensions / Generators](https://intranet.alxswe.com/rltoken/0OkbObYzCKtO7ZUAxfKvkw)
+- [Type-hints for generators](https://intranet.alxswe.com/rltoken/l4Fnno568VbVIn9GvrFVtQ)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/_jK22HqiCeh5NjKJ4ZHBww), **without the help of Google:**
