@@ -62,7 +62,7 @@ bob@dylan:~$ ./0-main.py
 **Repo:**
 - GitHub repository: `alx-backend-python`
 * Directory: `0x02-python_async_comprehension`
-File: `0-async_generator.py`
+- File: `0-async_generator.py`
 
 ### 1. Async Comprehensions
 
@@ -90,7 +90,7 @@ bob@dylan:~$ ./1-main.py
 **Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x02-python_async_comprehension`
-File: `1-async_comprehension.py`
+- File: `1-async_comprehension.py`
 
 ### 2. Run time for four parallel comprehensions
 
@@ -122,4 +122,4 @@ bob@dylan:~$ ./2-main.py
 **Repo:**
 - GitHub repository: `alx-backend-python`
 * Directory: `0x02-python_async_comprehension`
-File: `2-measure_runtime.py`
+- File: `2-measure_runtime.py`
