@@ -138,13 +138,12 @@ class TestClass:
         return self.a_method()
 ```
 
-Use unittest.mock.patch to mock a_method. Test that when calling a_property twice, the correct result is returned but a_method is only called once using assert_called_once.
+Use `unittest.mock.patch` to mock `a_method`. Test that when calling a_property twice, the correct result is returned but `a_method` is only called once using `assert_called_once`.
 
 Repo:
-
 GitHub repository: alx-backend-python
 Directory: 0x03-Unittests_and_integration_tests
-File: test_utils.py
+File: `test_utils.py`
 
 4. Parameterize and patch as decorators
 mandatory
