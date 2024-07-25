@@ -167,21 +167,20 @@ GitHub repository: alx-backend-python
 Directory: 0x03-Unittests_and_integration_tests
 File: `test_client.py`
 
-5. Mocking a property
-mandatory
-memoize turns methods into properties. Read up on how to mock a property (see resource).
+### 5. Mocking a property
 
-Implement the test_public_repos_url method to unit-test GithubOrgClient._public_repos_url.
+`memoize` turns methods into properties. Read up on how to mock a property (see resource).
 
-Use patch as a context manager to patch GithubOrgClient.org and make it return a known payload.
+Implement the `test_public_repos_url` method to unit-test `GithubOrgClient._public_repos_url`.
 
-Test that the result of _public_repos_url is the expected one based on the mocked payload.
+Use `patch` as a context manager to patch `GithubOrgClient.org` and make it return a known payload.
+
+Test that the result of `_public_repos_url` is the expected one based on the mocked payload.
 
 Repo:
-
 GitHub repository: alx-backend-python
 Directory: 0x03-Unittests_and_integration_tests
-File: test_client.py
+File: `test_client.py`
 
 6. More patching
 mandatory
