@@ -81,19 +81,20 @@ GitHub repository: alx-backend-python
 Directory: 0x03-Unittests_and_integration_tests
 File: `test_utils.py`
 
-1. Parameterize a unit test
-mandatory
-Implement TestAccessNestedMap.test_access_nested_map_exception. Use the assertRaises context manager to test that a KeyError is raised for the following inputs (use @parameterized.expand):
+### 1. Parameterize a unit test
 
+Implement `TestAccessNestedMap.test_access_nested_map_exception`. Use the `assertRaises` context manager to test that a `KeyError` is raised for the following inputs (use `@parameterized.expand`):
+
+```python3
 nested_map={}, path=("a",)
 nested_map={"a": 1}, path=("a", "b")
 Also make sure that the exception message is as expected.
+```
 
 Repo:
-
 GitHub repository: alx-backend-python
 Directory: 0x03-Unittests_and_integration_tests
-File: test_utils.py
+File: `test_utils.py`
 
 2. Mock HTTP calls
 mandatory
