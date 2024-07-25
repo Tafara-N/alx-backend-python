@@ -44,15 +44,17 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 - All your functions and coroutines must be type-annotated.
 
-Required Files
-utils.py (or download)
-Click to show/hide file contents
-client.py (or download)
-Click to show/hide file contents
-fixtures.py (or download)
-Click to show/hide file contents
-Tasks
-0. Parameterize a unit test
+## Required Files
+
+`utils.py` (or `[download](https://intranet-projects-files.s3.amazonaws.com/webstack/utils.py)`)
+
+`client.py` (or `[download]()`)
+
+`fixtures.py` (or `[download]()`)
+
+## Tasks
+
+### 0. Parameterize a unit test
 mandatory
 Familiarize yourself with the utils.access_nested_map function and understand its purpose. Play with it in the Python console to make sure you understand.
 
