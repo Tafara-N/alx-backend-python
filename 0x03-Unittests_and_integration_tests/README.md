@@ -199,24 +199,26 @@ GitHub repository: alx-backend-python
 Directory: 0x03-Unittests_and_integration_tests
 File: `test_client.py`
 
-7. Parameterize
-mandatory
-Implement TestGithubOrgClient.test_has_license to unit-test GithubOrgClient.has_license.
+### 7. Parameterize
+
+Implement `TestGithubOrgClient.test_has_license` to unit-test `GithubOrgClient.has_license`.
 
 Parametrize the test with the following inputs
 
+```python
 repo={"license": {"key": "my_license"}}, license_key="my_license"
 repo={"license": {"key": "other_license"}}, license_key="my_license"
+```
+
 You should also parameterize the expected returned value.
 
 Repo:
-
 GitHub repository: alx-backend-python
 Directory: 0x03-Unittests_and_integration_tests
-File: test_client.py
+File: `test_client.py`
 
-8. Integration test: fixtures
-mandatory
+### 8. Integration test: fixtures
+
 We want to test the GithubOrgClient.public_repos method in an integration test. That means that we will only mock code that sends external requests.
 
 Create the TestIntegrationGithubOrgClient(unittest.TestCase) class and implement the setUpClass and tearDownClass which are part of the unittest.TestCase API.
