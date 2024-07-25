@@ -46,7 +46,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## Required Files
 
-`utils.py` (or `[download](https://intranet-projects-files.s3.amazonaws.com/webstack/utils.py)`)
+`utils.py` (or [`download`](https://intranet-projects-files.s3.amazonaws.com/webstack/utils.py))
 
 `client.py` (or `[download]()`)
 
