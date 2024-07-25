@@ -22,7 +22,7 @@ $ python -m unittest path/to/test_file.py
 - [unittest — Unit testing framework]()
 - [unittest.mock — mock object library]()
 - [How to mock a readonly property with mock?]()
-parameterized
+- [parameterized]()
 Memoization
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
