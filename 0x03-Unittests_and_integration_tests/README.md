@@ -78,7 +78,7 @@ The body of the test method should not be longer than 2 lines.
 
 Repo:
 - GitHub repository: `alx-backend-python`
-Directory: 0x03-Unittests_and_integration_tests
+- Directory: `0x03-Unittests_and_integration_tests`
 File: `test_utils.py`
 
 ### 1. Parameterize a unit test
@@ -94,7 +94,7 @@ Also make sure that the exception message is as expected.
 
 Repo:
 - GitHub repository: `alx-backend-python`
-Directory: 0x03-Unittests_and_integration_tests
+- Directory: `0x03-Unittests_and_integration_tests`
 File: `test_utils.py`
 
 ### 2. Mock HTTP calls
@@ -116,7 +116,7 @@ Test that the output of `get_json` is equal to `test_payload`.
 
 Repo:
 - GitHub repository: `alx-backend-python`
-Directory: 0x03-Unittests_and_integration_tests
+- Directory: `0x03-Unittests_and_integration_tests`
 File: `test_utils.py`
 
 ### 3. Parameterize and patch
@@ -142,7 +142,7 @@ Use `unittest.mock.patch` to mock `a_method`. Test that when calling a_property 
 
 Repo:
 - GitHub repository: `alx-backend-python`
-Directory: 0x03-Unittests_and_integration_tests
+- Directory: `0x03-Unittests_and_integration_tests`
 File: `test_utils.py`
 
 ### 4. Parameterize and patch as decorators
@@ -164,7 +164,7 @@ Of course, no external HTTP calls should be made.
 
 Repo:
 - GitHub repository: `alx-backend-python`
-Directory: 0x03-Unittests_and_integration_tests
+- Directory: `0x03-Unittests_and_integration_tests`
 File: `test_client.py`
 
 ### 5. Mocking a property
@@ -179,7 +179,7 @@ Test that the result of `_public_repos_url` is the expected one based on the moc
 
 Repo:
 - GitHub repository: `alx-backend-python`
-Directory: 0x03-Unittests_and_integration_tests
+- Directory: `0x03-Unittests_and_integration_tests`
 File: `test_client.py`
 
 ### 6. More patching
@@ -196,7 +196,7 @@ Test that the mocked property and the mocked `get_json` was called once.
 
 Repo:
 - GitHub repository: `alx-backend-python`
-Directory: 0x03-Unittests_and_integration_tests
+- Directory: `0x03-Unittests_and_integration_tests`
 File: `test_client.py`
 
 ### 7. Parameterize
@@ -214,7 +214,7 @@ You should also parameterize the expected returned value.
 
 Repo:
 - GitHub repository: `alx-backend-python`
-Directory: 0x03-Unittests_and_integration_tests
+- Directory: `0x03-Unittests_and_integration_tests`
 File: `test_client.py`
 
 ### 8. Integration test: fixtures
@@ -237,7 +237,7 @@ Implement the `tearDownClass` class method to stop the patcher.
 
 Repo:
 - GitHub repository: `alx-backend-python`
-Directory: 0x03-Unittests_and_integration_tests
+- Directory: `0x03-Unittests_and_integration_tests`
 File: `test_client.py`
 
 ### 9. Integration tests
@@ -250,5 +250,5 @@ Implement `test_public_repos_with_license` to test the `public_repos` with the a
 
 Repo:
 - GitHub repository: `alx-backend-python`
-Directory: 0x03-Unittests_and_integration_tests
+- Directory: `0x03-Unittests_and_integration_tests`
 File: `test_client.py`
