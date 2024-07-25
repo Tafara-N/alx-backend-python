@@ -145,27 +145,27 @@ GitHub repository: alx-backend-python
 Directory: 0x03-Unittests_and_integration_tests
 File: `test_utils.py`
 
-4. Parameterize and patch as decorators
-mandatory
-Familiarize yourself with the client.GithubOrgClient class.
+### 4. Parameterize and patch as decorators
 
-In a new test_client.py file, declare the TestGithubOrgClient(unittest.TestCase) class and implement the test_org method.
+Familiarize yourself with the `client.GithubOrgClient` class.
 
-This method should test that GithubOrgClient.org returns the correct value.
+In a new `test_client.py` file, declare the `TestGithubOrgClient(unittest.TestCase)` class and implement the `test_org` method.
 
-Use @patch as a decorator to make sure get_json is called once with the expected argument but make sure it is not executed.
+This method should test that `GithubOrgClient.org` returns the correct value.
 
-Use @parameterized.expand as a decorator to parametrize the test with a couple of org examples to pass to GithubOrgClient, in this order:
+Use `@patch` as a decorator to make sure `get_json` is called once with the expected argument but make sure it is not executed.
 
-google
-abc
+Use `@parameterized.expand` as a decorator to parametrize the test with a couple of `org` examples to pass to `GithubOrgClient`, in this order:
+
+- `google`
+- `abc`
+
 Of course, no external HTTP calls should be made.
 
 Repo:
-
 GitHub repository: alx-backend-python
 Directory: 0x03-Unittests_and_integration_tests
-File: test_client.py
+File: `test_client.py`
 
 5. Mocking a property
 mandatory
