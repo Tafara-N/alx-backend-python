@@ -16,9 +16,9 @@ Execute your tests with
 $ python -m unittest path/to/test_file.py
 ```
 
-Resources
-Read or watch:
+# Resources
 
+**Read or watch:**
 unittest — Unit testing framework
 unittest.mock — mock object library
 How to mock a readonly property with mock?
