@@ -28,8 +28,8 @@ $ python -m unittest path/to/test_file.py
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/NfT-nNKrNHGrDMY-Qm-1Dg), **without the help of Google:**
 
-The difference between unit and integration tests.
-Common testing patterns such as mocking, parametrizations and fixtures
+- The difference between unit and integration tests.
+- Common testing patterns such as mocking, parametrizations and fixtures
 Requirements
 All your files will be interpreted/compiled on Ubuntu 18.04 LTS using python3 (version 3.7)
 All your files should end with a new line
