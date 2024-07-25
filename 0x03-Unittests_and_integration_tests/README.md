@@ -48,9 +48,9 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 `utils.py` (or [`download`](https://intranet-projects-files.s3.amazonaws.com/webstack/utils.py))
 
-`client.py` (or `[download]()`)
+`client.py` (or [`download`](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py))
 
-`fixtures.py` (or `[download]()`)
+`fixtures.py` (or [`download`](https://intranet-projects-files.s3.amazonaws.com/webstack/fixtures.py))
 
 ## Tasks
 
