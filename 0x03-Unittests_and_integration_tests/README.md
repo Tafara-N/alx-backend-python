@@ -88,8 +88,9 @@ Implement `TestAccessNestedMap.test_access_nested_map_exception`. Use the `asser
 ```python3
 nested_map={}, path=("a",)
 nested_map={"a": 1}, path=("a", "b")
-Also make sure that the exception message is as expected.
 ```
+
+Also make sure that the exception message is as expected.
 
 Repo:
 GitHub repository: alx-backend-python
