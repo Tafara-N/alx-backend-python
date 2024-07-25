@@ -66,7 +66,7 @@ Implement the `TestAccessNestedMap.test_access_nested_map` method to test that t
 
 Decorate the method with `@parameterized.expand` to test the function for following inputs:
 
-```python3
+```python
 nested_map={"a": 1}, path=("a",)
 nested_map={"a": {"b": 2}}, path=("a",)
 nested_map={"a": {"b": 2}}, path=("a", "b")
@@ -85,7 +85,7 @@ File: `test_utils.py`
 
 Implement `TestAccessNestedMap.test_access_nested_map_exception`. Use the `assertRaises` context manager to test that a `KeyError` is raised for the following inputs (use `@parameterized.expand`):
 
-```python3
+```python
 nested_map={}, path=("a",)
 nested_map={"a": 1}, path=("a", "b")
 ```
@@ -105,7 +105,7 @@ Define the `TestGetJson(unittest.TestCase)` class and implement the `TestGetJson
 
 We don’t want to make any actual external HTTP calls. Use `unittest.mock.patch` to patch `requests.get`. Make sure it returns a `Mock` object with a `json` method that returns `test_payload` which you parametrize alongside the `test_url` that you will pass to `get_json` with the following inputs:
 
-```python3
+```python
 test_url="http://example.com", test_payload={"payload": True}
 test_url="http://holberton.io", test_payload={"payload": False}
 ```
@@ -119,14 +119,15 @@ GitHub repository: alx-backend-python
 Directory: 0x03-Unittests_and_integration_tests
 File: `test_utils.py`
 
-3. Parameterize and patch
-mandatory
-Read about memoization and familiarize yourself with the utils.memoize decorator.
+### 3. Parameterize and patch
 
-Implement the TestMemoize(unittest.TestCase) class with a test_memoize method.
+Read about memoization and familiarize yourself with the `utils.memoize` decorator.
 
-Inside test_memoize, define following class
+Implement the `TestMemoize(unittest.TestCase)` class with a `test_memoize` method.
 
+Inside `test_memoize`, define following class
+
+```python
 class TestClass:
 
     def a_method(self):
@@ -135,6 +136,8 @@ class TestClass:
     @memoize
     def a_property(self):
         return self.a_method()
+```
+
 Use unittest.mock.patch to mock a_method. Test that when calling a_property twice, the correct result is returned but a_method is only called once using assert_called_once.
 
 Repo:
