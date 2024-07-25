@@ -23,7 +23,7 @@ $ python -m unittest path/to/test_file.py
 - [unittest.mock — mock object library]()
 - [How to mock a readonly property with mock?]()
 - [parameterized]()
-- [Memoization]()
+- [Memoization](https://intranet.alxswe.com/rltoken/x83Hdr54q4Vax5xQ2Z3HSA)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/NfT-nNKrNHGrDMY-Qm-1Dg), **without the help of Google:**
