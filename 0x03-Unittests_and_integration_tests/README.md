@@ -76,7 +76,7 @@ For each of these inputs, test with `assertEqual` that the function returns the 
 
 The body of the test method should not be longer than 2 lines.
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x03-Unittests_and_integration_tests`
 - File: `test_utils.py`
@@ -92,7 +92,7 @@ nested_map={"a": 1}, path=("a", "b")
 
 Also make sure that the exception message is as expected.
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x03-Unittests_and_integration_tests`
 - File: `test_utils.py`
@@ -114,7 +114,7 @@ Test that the mocked `get` method was called exactly once (per input) with `test
 
 Test that the output of `get_json` is equal to `test_payload`.
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x03-Unittests_and_integration_tests`
 - File: `test_utils.py`
@@ -140,7 +140,7 @@ class TestClass:
 
 Use `unittest.mock.patch` to mock `a_method`. Test that when calling a_property twice, the correct result is returned but `a_method` is only called once using `assert_called_once`.
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x03-Unittests_and_integration_tests`
 - File: `test_utils.py`
@@ -162,7 +162,7 @@ Use `@parameterized.expand` as a decorator to parametrize the test with a couple
 
 Of course, no external HTTP calls should be made.
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x03-Unittests_and_integration_tests`
 - File: `test_client.py`
@@ -177,7 +177,7 @@ Use `patch` as a context manager to patch `GithubOrgClient.org` and make it retu
 
 Test that the result of `_public_repos_url` is the expected one based on the mocked payload.
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x03-Unittests_and_integration_tests`
 - File: `test_client.py`
@@ -194,7 +194,7 @@ Test that the list of repos is what you expect from the chosen payload.
 
 Test that the mocked property and the mocked `get_json` was called once.
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x03-Unittests_and_integration_tests`
 - File: `test_client.py`
@@ -212,7 +212,7 @@ repo={"license": {"key": "other_license"}}, license_key="my_license"
 
 You should also parameterize the expected returned value.
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x03-Unittests_and_integration_tests`
 - File: `test_client.py`
@@ -235,7 +235,7 @@ Use `patch` to start a patcher named `get_patcher`, and use `side_effect` to mak
 
 Implement the `tearDownClass` class method to stop the patcher.
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x03-Unittests_and_integration_tests`
 - File: `test_client.py`
@@ -248,7 +248,7 @@ Make sure that the method returns the expected results based on the fixtures.
 
 Implement `test_public_repos_with_license` to test the `public_repos` with the argument `license="apache-2.0"` and make sure the result matches the expected value from the fixtures.
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-python`
 - Directory: `0x03-Unittests_and_integration_tests`
 - File: `test_client.py`
