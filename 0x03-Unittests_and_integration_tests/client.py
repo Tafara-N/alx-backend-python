@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
-"""A github org client
+
 """
+A github org client
+"""
+
 from typing import Dict, List
 
 from utils import access_nested_map, get_json, memoize
