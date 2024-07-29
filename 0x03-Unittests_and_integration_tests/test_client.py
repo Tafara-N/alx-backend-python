@@ -21,7 +21,7 @@ from utils import access_nested_map, get_json, memoize
 
 class TestGithubOrgClient(unittest.TestCase):
     """
-    Class to arameterize and patch as decorators
+    Class to parameterize and patch as decorators
     """
 
     @parameterized.expand([("google", {"google": True}), ("abc", {"abc": True})])
