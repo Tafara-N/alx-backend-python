@@ -1,16 +1,9 @@
 #!/usr/bin/env python3
 """A github org client
 """
-from typing import (
-    List,
-    Dict,
-)
+from typing import Dict, List
 
-from utils import (
-    get_json,
-    access_nested_map,
-    memoize,
-)
+from utils import access_nested_map, get_json, memoize
 
 
 class GithubOrgClient:
