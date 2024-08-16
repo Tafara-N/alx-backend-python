@@ -29,7 +29,7 @@
 
 # Learning Objectives
 
-General
+## General
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/hGUom4nCewYmroS4ii_ZDQ), **without the help of Google:**
 
 - Type annotations in Python 3
