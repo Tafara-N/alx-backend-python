@@ -7,6 +7,7 @@
 - [Description](#description)
 - [Unittests and Integration tests](0x03-Unittests_and_integration_tests/README.md)
 - [Variable Annotations](0x00-python_variable_annotations/README.md)
+___
 
 - [Requirements](#requirements)
 
