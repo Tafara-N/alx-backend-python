@@ -22,7 +22,7 @@ ___
 
 - [Advanced Python](https://intranet.alxswe.com/concepts/554)
 
-![Strongly dynamically typed](dynamically_typed.png)
+![Strongly dynamically typed](images/dynamically_typed.png)
 
 # Resources
 
